@@ -1,0 +1,29 @@
+<table>
+    <unit>    
+        <sequence editable_state="true" name="'start'" triggable="true">
+            <body enabled="true" name="'chest_top'"/>
+            <body enabled="true" name="'chest_bottom'"/>
+            <body enabled="false" name="'chest_open'"/>
+            <object    enabled="true"    name="'chest_top'"/>
+            <object    enabled="true"    name="'chest_bottom'"/>
+            <object    enabled="false"    name="'chest_open'"/>
+        </sequence>
+        <sequence editable_state="true" name="'interact'" triggable="true">
+            <run_sequence name="'chest_opened'"/>
+        </sequence>
+        <sequence editable_state="true" name="'chest_opened'" triggable="true">
+            <body enabled="false" name="'chest_top'"/>
+            <body enabled="true" name="'chest_open'"/>
+            <object    enabled="true"    name="'chest_open'"/>
+            <object    enabled="false"    name="'chest_top'"/>
+        </sequence>
+        <sequence editable_state="true" name="'chest_closed'" triggable="true">
+            <body enabled="false" name="'chest_open'"/>
+            <body enabled="true" name="'chest_top'"/>
+            <object    enabled="true"    name="'chest_top'"/>
+            <object    enabled="false"    name="'chest_open'"/>
+        </sequence>
+    </unit>
+</table>
+
+

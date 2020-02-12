@@ -1,0 +1,10 @@
+{
+	"heist_zm_kino_name":		"Kino Der Minetoten",
+	"heist_zm_kino_brief":		" ",
+	"heist_zm_kinolvl_name":		"Kino Der Toten",
+	"heist_zm_kinolvl_brief":		"hi mom",
+	"hud_action_use_lever":		"Turning on power...",
+	"hud_int_use_lever":                    "Hold $BTN_INTERACT To turn on the power"
+
+
+}
