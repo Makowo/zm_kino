@@ -8,6 +8,20 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		timer = 0.5,
 		start_active = false
 	}
+
+		self.zm_link_teleporter = { 
+		text_id = "zm_link_teleporter",
+		action_text_id = "zm_action_link_teleporter",
+		timer = 1.0,
+		start_active = false,
+	}
+
+	self.zm_use_teleporter = { 
+		text_id = "zm_use_teleporter",
+		action_text_id = "zm_action_use_teleporter",
+		timer = 5.0,
+		start_active = false,
+	}
 	
 
 	self.zm_call_elevator = {
