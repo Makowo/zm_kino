@@ -17,7 +17,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 	}
 
 	self.zm_use_teleporter = { 
-		text_id = "zm_use_teleporter",
+		text_id = "zm_usetwo_teleporter",
 		action_text_id = "zm_action_use_teleporter",
 		timer = 5.0,
 		start_active = false,

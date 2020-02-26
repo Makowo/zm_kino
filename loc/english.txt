@@ -7,7 +7,7 @@
 	"hud_int_use_lever":                    "Hold $BTN_INTERACT To turn on the power",
 	"zm_link_teleporter":		"Hold $BTN_INTERACT To Link",
 	"zm_action_link_teleporter":                    "Linking...",
-	"zm_use_teleporter":		"Hold $BTN_INTERACT To start teleporter",
+	"zm_usetwo_teleporter":		"Hold $BTN_INTERACT To start teleporter",
 	"zm_action_use_teleporter":                    "Starting teleporter..."
 
 
