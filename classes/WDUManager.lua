@@ -617,8 +617,8 @@ function WDUManager:_convert_factory_to_upgrade()
 		wpn_fps_ass_flint_secondary = "wpn_fps_ass_flint_upg_secondary",
 		wpn_fps_pis_breech_primary = "wpn_fps_pis_breech_upg_primary",
 		wpn_fps_pis_breech_secondary = "wpn_fps_pis_breech_upg_secondary",
-		wpn_fps_ass_74_primary = "wpn_fps_ass_akrocket_upg_primary",
-		wpn_fps_ass_74_secondary = "wpn_fps_ass_akrocket_upg_secondary",
+		wpn_fps_ass_74_primary = "wpn_fps_ass_74_upg_primary",
+		wpn_fps_ass_74_secondary = "wpn_fps_ass_74_upg_secondary",
 		wpn_fps_ass_ching_primary = "wpn_fps_ass_ching_upg_primary",
 		wpn_fps_ass_ching_secondary = "wpn_fps_ass_ching_upg_secondary",
 		wpn_fps_pis_lemming_primary = "wpn_fps_pis_lemming_upg_primary",
@@ -655,7 +655,9 @@ function WDUManager:_convert_factory_to_upgrade()
         wpn_fps_pis_packrat_primary = "wpn_fps_pis_packrat_upg_primary",
         wpn_fps_pis_packrat_secondary = "wpn_fps_pis_packrat_upg_secondary",
 		wpn_fps_spe_raygun_primary = "wpn_fps_spe_raygun_upg_primary",
-        wpn_fps_spe_raygun_secondary = "wpn_fps_spe_raygun_upg_secondary"
+        wpn_fps_spe_raygun_secondary = "wpn_fps_spe_raygun_upg_secondary",
+		wpn_fps_gre_ray_primary = "wpn_fps_gre_ray_upg_primary",
+        wpn_fps_gre_ray_secondary = "wpn_fps_gre_ray_upg_secondary"
 	}
 end
 

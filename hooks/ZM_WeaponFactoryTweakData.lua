@@ -855,7 +855,6 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
 			"wpn_upg_ak_fg_legend",
 			"wpn_upg_ak_g_legend",
 			"wpn_upg_ak_s_legend",
-			"wpn_fps_upg_o_ak_scopemount",
 			"wpn_fps_upg_fl_ass_laser",
 			"wpn_fps_upg_o_reflex"
 	}
@@ -1115,9 +1114,8 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
 	
 
     
-	--EXPERIMENTAL SCOPE TEST
-    self.wpn_fps_ass_g3_upg_primary = deep_clone(self.wpn_fps_ass_g3_primary)
-    self.wpn_fps_ass_g3_upg_primary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_g3_upg_primary"
+	self.wpn_fps_ass_g3_upg_primary = deep_clone(self.wpn_fps_ass_g3_primary)
+    self.wpn_fps_ass_g3_upg_primary.unit = "new_weapon_units/upgrade/wpn_fps_ass_g3_upg_primary"
     self.wpn_fps_ass_g3_upg_primary.default_blueprint = {
 			"wpn_fps_ass_g3_b_sniper",
 			"wpn_fps_ass_g3_body_lower",
@@ -1128,15 +1126,14 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
 			"wpn_fps_ass_g3_s_sniper",
 			"wpn_fps_upg_fl_ass_laser",
 			"wpn_fps_upg_i_singlefire",
-			self:_choose_random_optics(opticname)
+			"wpn_fps_upg_o_acog"
     }
     self.wpn_fps_ass_g3_upg_primary_npc = deep_clone(self.wpn_fps_ass_g3_upg_primary)
     self.wpn_fps_ass_g3_upg_primary_npc.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3_npc"
     self.wpn_fps_ass_g3_upg_secondary = deep_clone(self.wpn_fps_ass_g3_upg_primary)
-    self.wpn_fps_ass_g3_upg_secondary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_g3_upg_secondary"
+    self.wpn_fps_ass_g3_upg_secondary.unit = "new_weapon_units/upgrade/wpn_fps_ass_g3_upg_secondary"
     self.wpn_fps_ass_g3_upg_secondary_npc = deep_clone(self.wpn_fps_ass_g3_upg_secondary)
     self.wpn_fps_ass_g3_upg_secondary_npc.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3_npc"
-	--EXPERIMENTAL SCOPE TEST
 	
 	
     self.wpn_fps_ass_tar21_upg_primary = deep_clone(self.wpn_fps_ass_tar21_primary)
@@ -1227,12 +1224,20 @@ function WeaponFactoryTweakData:_define_sights()
         translation = Vector3(0, 0, -3),
     }
 
-	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_m95_upg_primary = {
-        translation = Vector3(0, -1, -3.8),
+	self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_upg_primary = {
+        translation = Vector3(-0.013, -22, -4.595),
     }
 	
-    self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_m95_upg_secondary = {
-        translation = Vector3(0, -1, -3.85),
+    self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_upg_secondary = {
+        translation = Vector3(-0.013, -22, -4.595),
+    }
+	
+	self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_primary = {
+        translation = Vector3(-0.013, -22, -4.595),
+    }
+	
+    self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_secondary = {
+        translation = Vector3(-0.013, -22, -4.595),
     }
 	
 	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_smg_mp9_upg_primary = {
@@ -1315,11 +1320,11 @@ function WeaponFactoryTweakData:_define_sights()
         translation = Vector3(0, 5, -3.85),
     }
 	
-	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_fal_upg_primary = {
+	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_fal_upg_primary = {
         translation = Vector3(0, 7, -3.5),
     }
 	
-	self.parts.wpn_fps_upg_o_reflex.stance_mod.wpn_fps_ass_fal_upg_secondary = {
+	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_fal_upg_secondary = {
         translation = Vector3(0, 7, -3.5),
     }
 	
@@ -1370,33 +1375,6 @@ function WeaponFactoryTweakData:_define_sights()
 	self.parts.wpn_fps_upg_o_rmr.stance_mod.wpn_fps_pis_breech_upg_secondary = {
         translation = Vector3(0, 5, -0.65),
     }
-end
-
-function WeaponFactoryTweakData:_choose_random_optics(opticname)
-
-	--EXPERIMENTAL SCOPE TEST
-	self.table_random_scopes_main = {
-        "wpn_fps_upg_o_specter",
-        "wpn_fps_upg_o_aimpoint",
-        "wpn_fps_upg_o_docter",
-        "wpn_fps_upg_o_eotech",
-        "wpn_fps_upg_o_t1micro",
-        "wpn_fps_upg_o_shortdot",
-        "wpn_fps_upg_o_cmore",
-        "wpn_fps_upg_o_acog",
-        "wpn_fps_upg_o_rmr",
-        "wpn_fps_upg_o_eotech_xps",
-        "wpn_fps_upg_o_rx01",
-        "wpn_fps_upg_o_rx30",
-        "wpn_fps_upg_o_cs",
-        "wpn_fps_upg_o_spot"
-	}
-	
-	local oidx = math.random(#self.table_random_scopes_main)
-	local opticname = self.table_random_scopes_main[oidx]
-	
-	log('SCOPE:', opticname)
-	return opticname
 end
 
 

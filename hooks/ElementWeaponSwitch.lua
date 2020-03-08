@@ -36,7 +36,7 @@ function ElementWeaponSwitch:on_executed(instigator)
 	
     --EXPERIMENTAL SCOPE TEST
     -- Random optic if blueprints contain it
-	WeaponFactoryTweakData:_choose_random_optics()
+	--WeaponFactoryTweakData:_choose_random_optics()
 	
     -- Script used to get the start weapons
     local current_index_equipped = instigator:inventory():equipped_selection()

@@ -30,17 +30,17 @@ Hooks:PostHook(PlayerManager, "update", "zm_upd_perk", function(self, t, dt)
 
 	local GCS = PlayerManager.get_current_state
 	
-	if not self._wunderwaffe_unlocked then
+	if not self._raygun_unlocked then
 		if GCS and type(GCS) == "function" then
 			local current_state = self:get_current_state()
 			if current_state then
 				local current_weapon = current_state:get_equipped_weapon()
 				if current_weapon then
-					if current_weapon.name_id == "wunderwaffe_primary" or current_weapon.name_id == "wunderwaffe_secondary" then
+					if current_weapon.name_id == "raygun_primary" or current_weapon.name_id == "raygun_secondary" then
 						local lip = SoundDevice:create_source("lip")
-						lip:post_event("zm_announcer_wunder")
-						LuaNetworking:SendToPeers( "ZMWunderwaffeUnlocked", "1" )
-						self._wunderwaffe_unlocked = true
+						lip:post_event("zm_announcer_raygun")
+						LuaNetworking:SendToPeers( "ZMRaygunUnlocked", "1" )
+						self._raygun_unlocked = true
 					end
 				end
 			end
@@ -135,9 +135,9 @@ Hooks:Add("NetworkReceivedData", "NetworkReceivedData_Wunderwaffe_unlock", funct
         managers.player._wunderwaffe_unlocked = true
     end
 
-    if id == "ZMRoachUnlocked" then
+    if id == "ZMRaygunUnlocked" then
         local lip = SoundDevice:create_source("lip")
-        lip:post_event("zm_announcer_roach")
+        lip:post_event("zm_announcer_raygun")
         managers.player._roach_unlocked = true
     end
 end)

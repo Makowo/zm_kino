@@ -1,5 +1,5 @@
 <table global_key="zm_kino_mc" name="zm_kino">
-	<level ai_group_type="Zombie" briefing_dialog="" gamemode_type="3arc_zm" id="zm_kinolvl" intro_event="" max_bags="54" player_style="generic" team_ai_off="true">
+	<level ai_group_type="zombie" briefing_dialog="" gamemode_type="3arc_zm" id="zm_kinolvl" intro_event="" max_bags="54" music="no_music" player_style="generic" team_ai_off="true">
 		<add file="levels/zm_kinolvl/add.xml"/>
 		<assets>
 			<asset name="perk_mechanics"/>
@@ -580,6 +580,13 @@
 					</sounds>
 				</sounds>
 			</sounds>
+			<sound id="raygun_fire" path="raygun_fire.ogg" prefix="regular"/>
+			<sound id="raygun_out" path="off_open.ogg" prefix="first"/>
+			<sound id="raygun_out" path="off_open.ogg" prefix="third"/>
+			<sound id="raygun_eject" path="eject_battery.ogg" prefix="first"/>
+			<sound id="raygun_eject" path="eject_battery.ogg" prefix="third"/>
+			<sound id="raygun_in" path="on_close.ogg" prefix="first"/>
+			<sound id="raygun_in" path="on_close.ogg" prefix="third"/>
 		</sounds>
 	</level>
 	<level ai_group_type="zombie" id="zm_gameplay_controller" max_bags="54">
