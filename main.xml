@@ -1,5 +1,5 @@
 <table global_key="zm_kino_mc" name="zm_kino">
-	<level ai_group_type="zombie" briefing_dialog="" gamemode_type="3arc_zm" id="zm_kinolvl" intro_event="" max_bags="54" player_style="generic" team_ai_off="true">
+	<level ai_group_type="zombie" briefing_dialog="" gamemode_type="3arc_zm" id="zm_kinolvl" intro_event="" max_bags="54" music="no_music" player_style="generic" team_ai_off="true">
 		<add file="levels/zm_kinolvl/add.xml"/>
 		<assets>
 			<asset name="perk_mechanics"/>
@@ -124,7 +124,7 @@
 					<sound id="zm_perk_hum" path="zm_perk_hum.ogg" relative="true"/>
 					<sound id="zm_perk_song_deadshot" path="zm_perk_song_deadshot.ogg" relative="true"/>
 					<sound id="zm_perk_song_doubletap" path="zm_perk_song_doubletap.ogg" relative="true"/>
-					<sound id="zm_perk_song_pack_a_punch" path="zm_perk_song_pack_a_punch.ogg" relative="true"/>
+					<sound id="zm_perk_song_pap_sting" path="zm_perk_song_pack_a_punch.ogg" relative="true"/>
 					<sound id="zm_perk_song_staminup" path="zm_perk_song_staminup.ogg" relative="true"/>
 					<sound id="zm_perk_song_speedcola" path="zm_perk_song_speedcola.ogg" relative="true"/>
 					<sound id="zm_perk_song_speedcola_sting" path="zm_perk_song_speedcola_sting.ogg" relative="true"/>
@@ -579,6 +579,13 @@
 						<sound id="clk_burndeath" path="mdc_immolate.ogg"/>
 					</sounds>
 				</sounds>
+				<sound id="raygun_fire" path="raygun_fire.ogg" prefix="regular"/>
+				<sound id="raygun_out" path="off_open.ogg" prefix="first"/>
+				<sound id="raygun_out" path="off_open.ogg" prefix="third"/>
+				<sound id="raygun_eject" path="eject_battery.ogg" prefix="first"/>
+				<sound id="raygun_eject" path="eject_battery.ogg" prefix="third"/>
+				<sound id="raygun_in" path="on_close.ogg" prefix="first"/>
+				<sound id="raygun_in" path="on_close.ogg" prefix="third"/>
 			</sounds>
 		</sounds>
 	</level>

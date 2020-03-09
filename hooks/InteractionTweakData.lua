@@ -310,6 +310,7 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		zm_interaction = true,
 		pack_a_punch = true,
 		points_cost = 5000,
+		stay_active = true,
 		action_text_id = "zm_upgrade_weapon",
 		start_active = false,
 		sound_done = "zm_gen_ching",
