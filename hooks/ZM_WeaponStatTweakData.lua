@@ -38,6 +38,47 @@ end)
 
 function WeaponTweakData:_init_zm_new_weapons()
 
+
+	self.raygun_primary = deep_clone(self.breech)
+    self.raygun_primary.name_id = "wpn_raygun"
+    self.raygun_primary.sounds = {
+        fire = "raygun_fire",
+        fire_single = "raygun_fire",
+        fire_auto = "raygun_fire",
+        magazine_empty = "",
+        use_fix = true,
+        reload = {
+            wp_breech_clip_slide_out = "raygun_out",
+            wp_breech_clip_slide_in = "raygun_in",
+            wp_breech_clip_take_new = "raygun_eject"
+        }
+    }
+    self.raygun_primary.animations.reload_name_id = "breech"
+    self.raygun_primary.ignore_damage_upgrades = true
+    self.raygun_primary.shell_ejection = "effects/payday2/particles/weapons/shells/shell_empty"
+    self.raygun_primary.muzzleflash = "effects/raygun_fire"
+    self.raygun_primary.animations.ignore_fullreload = true
+    self.raygun_primary.timers.reload_empty = 1.33
+    self.raygun_primary.weapon_hold = "breech"
+    self.raygun_primary.projectile_type = "raygun_blast"
+    self.raygun_primary.CLIP_AMMO_MAX = 20
+    self.raygun_primary.NR_CLIPS_MAX = 9
+    self.raygun_primary.AMMO_MAX = self.raygun_primary.CLIP_AMMO_MAX * self.raygun_primary.NR_CLIPS_MAX
+    self.raygun_primary.stats.spread = 24
+    self.raygun_primary.upgrade_blocks = {
+        weapon = {
+            "clip_ammo_increase"
+        }
+    }
+    self.raygun_primary.stats_modifiers = {damage = 10}
+    self.raygun_primary.fire_mode_data = {
+		fire_rate = 0.331
+    }
+    self.raygun_primary.use_data = {selection_index = PRIMARY}
+
+    self.raygun_secondary = deep_clone(self.raygun_primary)
+    self.raygun_secondary.use_data = {selection_index = SECONDARY}
+
     self.colt_1911_primary = deep_clone(self.colt_1911)
     self.colt_1911_primary.animations.reload_name_id = "colt_1911"
     self.colt_1911_primary.weapon_hold = "colt_1911"
@@ -959,6 +1000,28 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.packrat_upg_primary.use_data = {selection_index = PRIMARY}
     self.packrat_upg_secondary = deep_clone(self.packrat_upg_primary)
     self.packrat_upg_secondary.use_data = {selection_index = SECONDARY}
+	
+	self.ray_upg_primary = deep_clone(self.ray)
+    self.ray_upg_primary.animations.reload_name_id = "ray"
+    self.ray_upg_primary.weapon_hold = "ray"
+    self.ray_upg_primary.stats_modifiers = {damage = 8}
+    self.ray_upg_primary.CLIP_AMMO_MAX = 8
+	self.ray_upg_primary.NR_CLIPS_MAX = 8
+	self.ray_upg_primary.AMMO_MAX = self.ray_upg_primary.CLIP_AMMO_MAX * self.ray_upg_primary.NR_CLIPS_MAX
+    self.ray_upg_primary.use_data = {selection_index = PRIMARY, align_place = "right_hand"}
+    self.ray_upg_secondary = deep_clone(self.ray_upg_primary)
+    self.ray_upg_secondary.use_data = {selection_index = SECONDARY, align_place = "right_hand"}
+	
+	self.raygun_upg_primary = deep_clone(self.raygun_primary)
+    self.raygun_upg_primary.name_id = "wpn_raygun_upg_name"
+    self.raygun_upg_primary.muzzleflash = "effects/raygun_fire_pap"
+    self.raygun_upg_primary.projectile_type = "raygun_blast_pap"
+    self.raygun_upg_primary.CLIP_AMMO_MAX = 40
+    self.raygun_upg_primary.NR_CLIPS_MAX = 4.5
+    self.raygun_upg_primary.AMMO_MAX = self.raygun_upg_primary.CLIP_AMMO_MAX * self.raygun_upg_primary.NR_CLIPS_MAX
+    self.raygun_upg_primary.use_data = {selection_index = PRIMARY}
+    self.raygun_upg_secondary = deep_clone(self.raygun_upg_primary)
+    self.raygun_upg_secondary.use_data = {selection_index = SECONDARY}
 	
 	--DONE UPG WEAPON TWEAK
 end
