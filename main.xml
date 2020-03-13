@@ -1,5 +1,5 @@
 <table global_key="zm_kino_mc" name="zm_kino">
-	<level ai_group_type="zombie" briefing_dialog="" gamemode_type="3arc_zm" id="zm_kinolvl" intro_event="" max_bags="54" player_style="generic" team_ai_off="true">
+	<level ai_group_type="zombie" briefing_dialog="" gamemode_type="3arc_zm" id="zm_kinolvl" intro_event="" max_bags="54" music="no_music" player_style="generic" team_ai_off="true">
 		<add file="levels/zm_kinolvl/add.xml"/>
 		<assets>
 			<asset name="perk_mechanics"/>
@@ -648,7 +648,6 @@
 	<narrative briefing_event="" contact="zombies_mode" id="zm_kino">
 		<chain>
 			<table level_id="zm_kinolvl" type="d" type_id="heist_type_assault"/>
-			<table level_id="zm_gameplay_controller" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="0"/>
