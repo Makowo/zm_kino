@@ -129,10 +129,10 @@
 					<sound id="zm_perk_bumped" path="zm_perk_bumped.ogg" relative="true"/>
 					<sound id="zm_perk_denied" path="zm_perk_denied.ogg" relative="true"/>
 					<sound id="zm_perk_hum" path="zm_perk_hum.ogg" relative="true"/>
-					<sound id="zm_perk_song_deadshot" path="zm_perk_song_deadshot.ogg" relative="true"/>
-					<sound id="zm_perk_song_doubletap" path="zm_perk_song_doubletap.ogg" relative="true"/>
+					<sound id="zm_perk_song_deadshot_sting" path="zm_perk_song_deadshot.ogg" relative="true"/>
+					<sound id="zm_perk_song_doubletap_sting" path="zm_perk_song_doubletap.ogg" relative="true"/>
 					<sound id="zm_perk_song_pap_sting" path="zm_perk_song_pack_a_punch.ogg" relative="true"/>
-					<sound id="zm_perk_song_staminup" path="zm_perk_song_staminup.ogg" relative="true"/>
+					<sound id="zm_perk_song_staminup_sting" path="zm_perk_song_staminup.ogg" relative="true"/>
 					<sound id="zm_perk_song_speedcola" path="zm_perk_song_speedcola.ogg" relative="true"/>
 					<sound id="zm_perk_song_speedcola_sting" path="zm_perk_song_speedcola_sting.ogg" relative="true"/>
 					<sound id="zm_perk_song_quickrevive" path="zm_perk_song_quickrevive.ogg" relative="true"/>
