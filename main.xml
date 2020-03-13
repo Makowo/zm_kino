@@ -129,10 +129,10 @@
 					<sound id="zm_perk_bumped" path="zm_perk_bumped.ogg" relative="true"/>
 					<sound id="zm_perk_denied" path="zm_perk_denied.ogg" relative="true"/>
 					<sound id="zm_perk_hum" path="zm_perk_hum.ogg" relative="true"/>
-					<sound id="zm_perk_song_deadshot_sting" path="zm_perk_song_deadshot.ogg" relative="true"/>
-					<sound id="zm_perk_song_doubletap_sting" path="zm_perk_song_doubletap.ogg" relative="true"/>
+					<sound id="zm_perk_song_deadshot" path="zm_perk_song_deadshot.ogg" relative="true"/>
+					<sound id="zm_perk_song_doubletap" path="zm_perk_song_doubletap.ogg" relative="true"/>
 					<sound id="zm_perk_song_pap_sting" path="zm_perk_song_pack_a_punch.ogg" relative="true"/>
-					<sound id="zm_perk_song_staminup_sting" path="zm_perk_song_staminup.ogg" relative="true"/>
+					<sound id="zm_perk_song_staminup" path="zm_perk_song_staminup.ogg" relative="true"/>
 					<sound id="zm_perk_song_speedcola" path="zm_perk_song_speedcola.ogg" relative="true"/>
 					<sound id="zm_perk_song_speedcola_sting" path="zm_perk_song_speedcola_sting.ogg" relative="true"/>
 					<sound id="zm_perk_song_quickrevive" path="zm_perk_song_quickrevive.ogg" relative="true"/>
@@ -589,12 +589,12 @@
 			</sounds>
 		</sounds>
 	</level>
-	<level ai_group_type="zombie" id="zm_gameplay_controller" max_bags="54">
-		<add file="levels/zm_gameplay_controller/add.xml"/>
+	<level ai_group_type="zombie" id="zm_kino_gameplay_controller" max_bags="54">
+		<add file="levels/zm_kino_gameplay_controller/add.xml"/>
 		<assets>
 			<asset name="perk_mechanics"/>
 		</assets>
-		<include directory="levels/zm_gameplay_controller">
+		<include directory="levels/zm_kino_gameplay_controller">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
 			<file file="mission.mission" type="binary"/>
@@ -636,9 +636,9 @@
 		<value_node value="ElementWave"/>
 	</MissionElements>
 	<contact assets_gui="guis/dlcs/the_bomb/guis/preload_contact_the_butcher" hidden="false" id="zombies_mode" name_id="zombies_mode_name" package="packages/contact_the_butcher"/>
-	<instance id="zm_gameplay_controller">
-		<add file="levels/zm_gameplay_controller/add.xml"/>
-		<include directory="levels/zm_gameplay_controller">
+	<instance id="zm_kino_gameplay_controller">
+		<add file="levels/zm_kino_gameplay_controller/add.xml"/>
+		<include directory="levels/zm_kino_gameplay_controller">
 			<file file="world/world.continent" type="custom_xml"/>
 			<file file="world/world.mission" type="generic_xml"/>
 		</include>

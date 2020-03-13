@@ -18,7 +18,7 @@ function WDUManager:init()
 end
 
 function WDUManager:_init_variables()
-    self.project_name = "testing"
+    self.project_name = "kino"
     self.extension = "shovel"
     self.wave_highscore_file = SavePath .. self.project_name .. "_Highscore." .. self.extension
     self.xaudio_initialized = false
