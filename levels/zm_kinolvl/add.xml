@@ -100,6 +100,18 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
+		<texture path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel_df"/>
+		<material_config path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+		<cooked_physics path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+		<model path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+		<object path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+		<unit path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+		<texture path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel_df"/>
+		<cooked_physics path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
+		<material_config path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
+		<model path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
+		<object path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
+		<unit path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
 		<texture path="units/pd2_mod_craft/props/textures/mossy_stone_bricks"/>
 		<texture path="units/pd2_mod_craft/props/textures/log_jungle_side"/>
 		<texture path="units/pd2_mod_craft/props/textures/redstone_lamp_on"/>

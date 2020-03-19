@@ -1,4 +1,8 @@
-
+Hooks:PostHook(UpgradesTweakData, "init", "zm_add_upgrade_data", function(self)
+    self.definitions["mcgshovel"] = {
+        category = "melee_weapon"
+    }
+end)
 
 Hooks:PostHook(UpgradesTweakData, "_init_pd2_values", "init_zm_upgrades", function(self)
 	log("// ZOMBIES MODE UPGRADE //")

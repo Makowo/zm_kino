@@ -8,7 +8,8 @@
 	"zm_link_teleporter":		"Hold $BTN_INTERACT To Link",
 	"zm_action_link_teleporter":                    "Linking...",
 	"zm_usetwo_teleporter":		"Hold $BTN_INTERACT To start teleporter",
-	"zm_action_use_teleporter":                    "Starting teleporter..."
+	"zm_action_use_teleporter":                    "Starting teleporter...",
+	"wpn_melee_mcgshovel":                    "Golden Shovel"
 
 
 }
