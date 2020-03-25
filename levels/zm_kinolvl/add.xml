@@ -100,6 +100,7 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
+		<texture path="guis/dlcs/mcgshovel/textures/pd2/blackmarket/icons/melee_weapons/mcgshovel"/>
 		<texture path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel_df"/>
 		<material_config path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
 		<cooked_physics path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
@@ -717,23 +718,11 @@
 		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_small/chl_prop_timer_medium" unload="true"/>
 	</add>
 	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
-		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
-	</add>
-	<add path="units/pd2_mod_craft/props/chest" type="unit">
-		<unit path="units/pd2_mod_craft/props/chest" unload="true"/>
-		<object path="units/pd2_mod_craft/props/chest" unload="true"/>
-		<model path="units/pd2_mod_craft/props/chest" unload="true"/>
-		<material_config path="units/pd2_mod_craft/props/chest" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/chest" unload="true"/>
-		<sequence_manager path="units/pd2_mod_craft/props/chest" unload="true"/>
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_craft/props/irondoor" type="unit">
-		<unit path="units/pd2_mod_craft/props/irondoor" unload="true"/>
-		<object path="units/pd2_mod_craft/props/irondoor" unload="true"/>
-		<model path="units/pd2_mod_craft/props/irondoor" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_top" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/log_jungle_side" unload="true"/>
@@ -820,13 +809,13 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<model path="units/pd2_mod_craft/props/irondoor" unload="true"/>
+		<object path="units/pd2_mod_craft/props/irondoor" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/irondoor" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/irondoor" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_craft/props/kino" type="unit">
-		<unit path="units/pd2_mod_craft/props/kino" unload="true"/>
-		<object path="units/pd2_mod_craft/props/kino" unload="true"/>
-		<model path="units/pd2_mod_craft/props/kino" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_top" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/log_jungle_side" unload="true"/>
@@ -913,13 +902,13 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<model path="units/pd2_mod_craft/props/kino" unload="true"/>
+		<object path="units/pd2_mod_craft/props/kino" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/kino" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/kino" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_craft/props/lever" type="unit">
-		<unit path="units/pd2_mod_craft/props/lever" unload="true"/>
-		<object path="units/pd2_mod_craft/props/lever" unload="true"/>
-		<model path="units/pd2_mod_craft/props/lever" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_top" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/log_jungle_side" unload="true"/>
@@ -1006,27 +995,27 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<model path="units/pd2_mod_craft/props/lever" unload="true"/>
+		<object path="units/pd2_mod_craft/props/lever" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/lever" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/lever" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_craft/props/prop_cube_bookcase" type="unit">
-		<unit path="units/pd2_mod_craft/props/prop_cube_bookcase" unload="true"/>
-		<object path="units/pd2_mod_craft/props/prop_cube_bookcase" unload="true"/>
-		<model path="units/pd2_mod_craft/props/prop_cube_bookcase" unload="true"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_bookcase" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_bookcase" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_bookcase" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/prop_cube_bookcase_df" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_bookcase" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_craft/props/prop_cube_cobblestone" type="unit">
-		<unit path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
-		<object path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
-		<model path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/prop_cube_cobblestone_df" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_craft/props/singleirondoor" type="unit">
-		<unit path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
-		<object path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
-		<model path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_top" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/log_jungle_side" unload="true"/>
@@ -1113,15 +1102,19 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<model path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
+		<object path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/irondoor" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" type="unit">
-		<unit path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
-		<object path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
-		<model path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
-		<texture path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/zombie_eyes_il" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
+		<model path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
+		<object path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
+		<texture path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/zombie_eyes_il" unload="true"/>
+		<unit path="units/pd2_mod_zombies/characters/ene_acc_zombie_eyes/ene_acc_zombie_eyes" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/characters/ene_bulldozer_hvh_1/ene_bulldozer_hvh_1" type="unit">
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
@@ -1169,37 +1162,37 @@
 	<add path="units/pd2_mod_zombies/characters/ene_medic_hvh_r870/ene_medic_hvh_r870_husk" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" type="unit">
 		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<effect load="true" path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" unload="true"/>
 		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1_husk" unload="true"/>
+		<effect load="true" path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1_husk" type="unit">
-		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1_husk" unload="true"/>
-		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
-		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1" unload="true"/>
+		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_1/ene_shadow_cloaker_1_husk" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" type="unit">
 		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<effect load="true" path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" unload="true"/>
 		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2_husk" unload="true"/>
+		<effect load="true" path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2_husk" type="unit">
-		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2_husk" unload="true"/>
-		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
-		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_enemy_effects/zm_eyes" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<model path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<object path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<sequence_manager path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2" unload="true"/>
+		<unit path="units/pd2_mod_zombies/characters/ene_shadow_cloaker_2/ene_shadow_cloaker_2_husk" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/characters/ene_shield_hvh_1/ene_shield_hvh_1" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_shield_hvh_1/ene_shield_hvh_1_husk" type="unit"/>
@@ -1222,10 +1215,6 @@
 	<add path="units/pd2_mod_zombies/characters/ene_zm_swat_1/ene_swat_hvh_1" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_zm_swat_1/ene_swat_hvh_1_husk" type="unit"/>
 	<add path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/mystery_box/textures/zm_random_weapon_box_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/mystery_box/textures/zm_random_weapon_box_nm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/mystery_box/textures/zm_random_weapon_box2_df" unload="true"/>
@@ -1236,14 +1225,14 @@
 		<texture path="units/pd2_mod_zombies/equipment/mystery_box/textures/zm_random_weapon_box_rope_nm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/mystery_box/textures/zm_random_weapon_box_il" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/mystery_box/textures/zm_random_weapon_box_glow" unload="true"/>
-		<sequence_manager path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_mystery_box/zm_mysterybox_glow" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
+		<sequence_manager path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/mystery_box/zm_random_weapon_box" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap_dnm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap_gsma" unload="true"/>
@@ -1256,36 +1245,36 @@
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_nm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_op" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog_dnm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog_gsma" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_nm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_op" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_juggernog/zm_perk_machine_juggernog" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive_dnm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive_gsma" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_quickrevive/zm_perk_machine_quickrevive" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola_dnm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola_gsma" unload="true"/>
@@ -1293,12 +1282,13 @@
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_nm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_op" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_speedcola/zm_perk_machine_speedcola" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_staminup/zm_perk_machine_staminup" type="unit">
-		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap_dnm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap_gsma" unload="true"/>
@@ -1311,15 +1301,18 @@
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_nm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_shared/zm_perk_machine_coil_op" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/perk_machines/zm_perk_machine_doubletap/zm_perk_machine_doubletap" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" unload="true"/>
 		<material_config path="units/pd2_mod_zombies/equipment/wall_buy_decals/zom_wpn_nades" unload="true"/>
-		<texture path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal_glow_blue" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" unload="true"/>
+		<texture path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal_glow_blue" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/wall_buy_decals/weapon_decal" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/zom_deploy_sentry/zom_sentry_police/zom_sentry_police" type="unit"/>
 	<add path="units/pd2_mod_zombies/equipment/zom_deploy_sentry/zom_sentry_police/zom_sentry_police_dummy" type="unit"/>
@@ -1327,25 +1320,25 @@
 	<add path="units/pd2_mod_zombies/equipment/zom_deploy_sentry/zom_sentry_police/zom_sentry_police_placement" type="unit"/>
 	<add path="units/pd2_mod_zombies/equipment/zom_deploy_sentry/zom_sentry_police/zom_sentry_police_silent" type="unit"/>
 	<add path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
 		<material_config path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/zom_mystery_box/test_weapon_pickup" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/zom_mystery_box/zom_mystery_box" type="unit"/>
 	<add path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" type="unit">
-		<unit path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
-		<object path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
-		<model path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch_dnm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch_gsma" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch_details_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch_details_dnm" unload="true"/>
 		<texture path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch_details_gsma" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
+		<model path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
+		<object path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
+		<unit path="units/pd2_mod_zombies/equipment/zom_pack_a_punch/zom_pack_a_punch" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/zom_perk_key/zm_perk_key_doubletap/zm_perk_key_doubletap" type="unit"/>
 	<add path="units/pd2_mod_zombies/equipment/zom_security_door/zom_security_door" type="unit">
@@ -1353,144 +1346,144 @@
 	</add>
 	<add path="units/pd2_mod_zombies/equipment/zom_traps/zom_deploy_sentry/zom_deploy_sentry" type="unit"/>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
-		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_df" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_blue" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
+		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_df" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_infinite" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_infinite" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
-		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_df" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_blue" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money" unload="true"/>
+		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_df" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_blood_money/zm_pwrup_blood_money_infinite" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_infinite" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_infinite" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_double_points/zm_pwrup_double_points_infinite" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
-		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_df" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
+		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_df" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_infinite" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_infinite" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
-		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_df" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale" unload="true"/>
+		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_df" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_firesale/zm_pwrup_firesale_infinite" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_infinite" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_infinite" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_instakill/zm_pwrup_instakill_infinite" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_infinite" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_infinite" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_max_ammo/zm_pwrup_max_ammo_infinite" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_infinite" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_infinite" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_nuke/zm_pwrup_nuke_infinite" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_infinite" type="unit">
-		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_infinite" unload="true"/>
-		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
-		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
-		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_df" unload="true"/>
 		<texture path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_nm" unload="true"/>
 		<effect load="true" path="units/pd2_mod_zombies/effects/zm_power_ups/zm_powerup_glow_green" unload="true"/>
+		<material_config path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
+		<model path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
+		<object path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood" unload="true"/>
+		<unit path="units/pd2_mod_zombies/power_ups/zm_pwrup_zombie_blood/zm_pwrup_zombie_blood_infinite" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/props/dah_prop_gg_fountain/dah_prop_fountain_lamp" type="unit"/>
 	<add path="units/pd2_mod_zombies/props/dah_prop_gg_fountain/dah_prop_gg_fountain" type="unit"/>
 	<add path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" type="unit">
-		<unit path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
-		<object path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
-		<model path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
 		<material_config path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
-		<texture path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_df" unload="true"/>
+		<model path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
+		<object path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
+		<texture path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_df" unload="true"/>
+		<unit path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_double" type="unit">
-		<unit path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_double" unload="true"/>
-		<object path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_double" unload="true"/>
-		<model path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_double" unload="true"/>
 		<material_config path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
-		<texture path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_df" unload="true"/>
+		<model path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_double" unload="true"/>
+		<object path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_double" unload="true"/>
 		<sequence_manager path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker" unload="true"/>
+		<texture path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_df" unload="true"/>
+		<unit path="units/pd2_mod_zombies/props/zm_buy_marker/zm_buy_marker_double" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/props/zom_mysterybox_marker/zom_mysterybox_marker" type="unit"/>
 	<add path="units/pd2_mod_zombies/props/zom_teleporter/zom_teleporter_main" type="unit"/>
@@ -1971,9 +1964,9 @@
 		<unit path="units/pd2_mod_zombies/weapons/upgrade/wpn_fps_spe_vulcan_upg_primary" unload="true"/>
 	</add>
 	<add path="units/pd2_mod_zombies/weapons/wpn_fps_ass_nothing2/wpn_fps_ass_nothing2" type="unit">
-		<unit path="units/pd2_mod_zombies/weapons/wpn_fps_ass_nothing2/wpn_fps_ass_nothing2" unload="true"/>
-		<object path="units/pd2_mod_zombies/weapons/wpn_fps_ass_nothing2/wpn_fps_ass_nothing2" unload="true"/>
 		<model path="units/pd2_mod_zombies/weapons/wpn_fps_ass_nothing2/wpn_fps_ass_nothing2" unload="true"/>
+		<object path="units/pd2_mod_zombies/weapons/wpn_fps_ass_nothing2/wpn_fps_ass_nothing2" unload="true"/>
+		<unit path="units/pd2_mod_zombies/weapons/wpn_fps_ass_nothing2/wpn_fps_ass_nothing2" unload="true"/>
 	</add>
 	<sequence_manager path="units/pd2_mod_zombies/power_ups/zm_pwrup_seq"/>
 </table>

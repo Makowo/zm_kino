@@ -4,6 +4,7 @@ Hooks:PostHook(BlackMarketTweakData, "_init_melee_weapons", "zm_init_new_melee_w
         name_id = "wpn_melee_mcgshovel",
         dlc = "infamy",
         custom = true,
+        texture_bundle_folder = "mcgshovel",
         unit = "units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel",
         third_unit = "units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel",
         stats = {
