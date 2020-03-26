@@ -9,7 +9,27 @@
 	"zm_action_link_teleporter":                    "Linking...",
 	"zm_usetwo_teleporter":		"Hold $BTN_INTERACT To start teleporter",
 	"zm_action_use_teleporter":                    "Starting teleporter...",
-	"wpn_melee_mcgshovel":                    "Golden Shovel"
+	"wpn_melee_mcgshovel":                    "Golden Shovel",
+	"zm_kino_ach_name": 					"Kino Der Minetoten"
+	"zm_kino_ach_r40_name":                    "Ultimate Survivor",
+	"zm_kino_ach_r40_desc":                    " ",
+	"zm_kino_ach_r40_objective":                    "Survive for 40 rounds. \n\nThere is no difficulty requirement.",
+	"zm_kino_ach_perks_name":                    "Perkaholic",
+	"zm_kino_ach_perks_desc":                    " ",
+	"zm_kino_ach_perks_objective":                    "Buy all four perks in a single game. \n\nThere is no difficulty requirement.",
+	"zm_kino_ach_r20_name":                    "Survivor",
+	"zm_kino_ach_r20_desc":                    " ",
+	"zm_kino_ach_r20_objective":                    "Survive for 20 rounds. \n\nThere is no difficulty requirement.",
+	"zm_kino_ach_buy_name":                    "The Collector",
+	"zm_kino_ach_buy_desc":                    " ",
+	"zm_kino_ach_buy_objective":                    "Buy all weapons off the wall in a single match. \n\nThere is no difficulty requirement.",
+	"zm_kino_ach_pap_name":                    "Packing a Punch",
+	"zm_kino_ach_pap_desc":                    " ",
+	"zm_kino_ach_pap_objective":                    "Use the Pack a Punch machine. \n\nThere is no difficulty requirement.",
+	"zm_kino_ach_kill_name":                    "Culling the Horde",
+	"zm_kino_ach_kill_desc":                    " ",
+	"zm_kino_ach_kill_objective":                    "Get 500 kills in a single game across all players. \n\nThere is no difficulty requirement."
+
 
 
 }
