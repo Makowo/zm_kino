@@ -84,6 +84,7 @@
 			<value_node value="levels/narratives/bain/hvh/world_sounds"/>
 			<value_node value="levels/narratives/locke/brb/collision/collision"/>
 			<value_node value="levels/instances/unique/unobtanium/world/world"/>
+			<value_node value="levels/narratives/classics/dah/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
