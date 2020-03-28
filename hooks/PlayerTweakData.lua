@@ -157,9 +157,9 @@ Hooks:PostHook(PlayerTweakData, "_init_new_stances", "zm_init_new_stances", func
 	self.stances.rpg7_upg_secondary = deep_clone(self.stances.rpg7)
 	
 	self.stances.ray_primary = deep_clone(self.stances.ray)
-	self.stances.ray_primary = deep_clone(self.stances.ray)
+	self.stances.ray_upg_primary = deep_clone(self.stances.ray)
 	self.stances.ray_secondary = deep_clone(self.stances.ray)
-	self.stances.ray_secondary = deep_clone(self.stances.ray)
+	self.stances.ray_upg_secondary = deep_clone(self.stances.ray)
 	
 	--shovel mkii stances
 	self.stances.ak74_primary = deep_clone(self.stances.ak74)

@@ -1002,6 +1002,7 @@ function WeaponTweakData:_init_upgraded_zm_weapons()
     self.packrat_upg_secondary.use_data = {selection_index = SECONDARY}
 	
 	self.ray_upg_primary = deep_clone(self.ray)
+    self.ray_upg_primary.name_id = "wpn_ray_upg_name"
     self.ray_upg_primary.animations.reload_name_id = "ray"
     self.ray_upg_primary.weapon_hold = "ray"
     self.ray_upg_primary.stats_modifiers = {damage = 8}

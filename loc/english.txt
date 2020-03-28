@@ -1,4 +1,5 @@
 {
+	"zombies_mode_name":			"Zombies Mode",
 	"heist_zm_kino_name":		"Kino Der Minetoten",
 	"heist_zm_kino_brief":		" ",
 	"heist_zm_kinolvl_name":		"Kino Der Toten",
@@ -28,8 +29,8 @@
 	"zm_kino_ach_pap_objective":                    "Use the Pack a Punch machine. \n\nThere is no difficulty requirement.",
 	"zm_kino_ach_kill_name":                    "Culling the Horde",
 	"zm_kino_ach_kill_desc":                    " ",
-	"zm_kino_ach_kill_objective":                    "Get 500 kills in a single game across all players. \n\nThere is no difficulty requirement."
-
+	"zm_kino_ach_kill_objective":                    "Get 500 kills in a single game across all players. \n\nThere is no difficulty requirement.",
+	"zm_perk_mechanics":"Perks"
 
 
 }
