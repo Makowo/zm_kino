@@ -85,6 +85,7 @@
 			<value_node value="levels/narratives/locke/brb/collision/collision"/>
 			<value_node value="levels/instances/unique/unobtanium/world/world"/>
 			<value_node value="levels/narratives/classics/dah/world"/>
+			<value_node value="levels/narratives/safehouse/shadow_casters/shadow_casters"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -621,6 +622,7 @@
 	</level>
 	<AddFiles directory="assets">
 		<texture load="true" path="guis/zm_kino_ach_icon"/>
+		<texture load="true" path="guis/zm_kino_icon"/>
 	</AddFiles>
 	<AddFiles file="dynamic_manager.xml"/>
 	<Achievements icon="guis/zm_kino_ach_icon" id="zm_kino_ach">
@@ -654,13 +656,13 @@
 	<instance id="zm_kino_gameplay_controller">
 		<add file="levels/zm_kino_gameplay_controller/add.xml"/>
 		<include directory="levels/zm_kino_gameplay_controller">
-			<file file="world/world.continent" type="custom_xml"/>
-			<file file="world/world.mission" type="generic_xml"/>
+			<file file="world/world.continent" type="binary"/>
+			<file file="world/world.mission" type="binary"/>
 		</include>
 		<packages/>
 		<script_data_mods/>
 	</instance>
-	<narrative briefing_event="" contact="zombies_mode" id="zm_kino">
+	<narrative briefing_event="" contact="zombies_mode" icon="guis/zm_kino_icon" id="zm_kino">
 		<chain>
 			<table level_id="zm_kinolvl" type="d" type_id="heist_type_assault"/>
 		</chain>
