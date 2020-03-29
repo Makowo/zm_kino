@@ -100,6 +100,12 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1x3m" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
+		<material_config path="units/pd2_mod_craft/props/cupcake"/>
+		<model path="units/pd2_mod_craft/props/cupcake"/>
+		<object path="units/pd2_mod_craft/props/cupcake"/>
+		<unit path="units/pd2_mod_craft/props/cupcake"/>
+		<sequence_manager path="units/pd2_mod_craft/props/cupcake"/>
+		<texture path="units/pd2_mod_craft/props/textures/cupcake"/>
 		<texture path="guis/dlcs/mcgshovel/textures/pd2/blackmarket/icons/melee_weapons/mcgshovel"/>
 		<texture path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel_df"/>
 		<material_config path="units/pd2_mod_zombies/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
