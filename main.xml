@@ -5,6 +5,7 @@
 			<asset name="perk_mechanics"/>
 		</assets>
 		<hooks directory="hooks">
+			<hook file="AchievementManager.lua" source_file="lib/managers/dialogmanager"/>
 			<hook file="Setup.lua" source_file="lib/setups/gamesetup"/>
 			<hook file="AssetsTweakData.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hook file="BlackMarketManager.lua" source_file="lib/managers/blackmarketmanager"/>
@@ -626,12 +627,14 @@
 	</AddFiles>
 	<AddFiles file="dynamic_manager.xml"/>
 	<Achievements icon="guis/zm_kino_ach_icon" id="zm_kino_ach">
-		<achievement id="zm_kino_ach_kill" rank="2"/>
+		<achievement id="zm_kino_ach_kill" rank="1"/>
 		<achievement id="zm_kino_ach_buy" rank="3"/>
-		<achievement id="zm_kino_ach_r20" rank="2"/>
-		<achievement id="zm_kino_ach_perks" rank="3"/>
-		<achievement id="zm_kino_ach_r40" rank="4"/>
-		<achievement id="zm_kino_ach_pap" rank="2"/>
+		<achievement id="zm_kino_ach_r15" rank="2"/>
+		<achievement id="zm_kino_ach_perks" rank="2"/>
+		<achievement id="zm_kino_ach_r30" rank="3"/>
+		<achievement id="zm_kino_ach_complete" rank="4"/>
+		<achievement id="zm_kino_ach_pap" rank="1"/>
+		<achievement id="zm_kino_ach_welcome" rank="1"/>
 	</Achievements>
 	<AssetUpdates id="-1" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Hooks directory="hooks">
