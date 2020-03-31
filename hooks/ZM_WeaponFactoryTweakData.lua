@@ -507,8 +507,7 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
         "wpn_fps_ass_m14_body_upper_legendary",
         "wpn_fps_ass_m14_m_standard",
         "wpn_fps_ass_m14_body_legendary",
-		"wpn_fps_upg_o_acog",
-		"wpn_fps_upg_o_m14_scopemount"
+		"wpn_fps_upg_o_acog"
     }
     self.wpn_fps_ass_m14_upg_secondary = deep_clone(self.wpn_fps_ass_m14_upg_primary)
     self.wpn_fps_ass_m14_upg_secondary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_m14_upg_secondary"
@@ -1151,7 +1150,7 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
 
     
 	self.wpn_fps_ass_g3_upg_primary = deep_clone(self.wpn_fps_ass_g3_primary)
-    self.wpn_fps_ass_g3_upg_primary.unit = "new_weapon_units/upgrade/wpn_fps_ass_g3_upg_primary"
+    self.wpn_fps_ass_g3_upg_primary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_g3_upg_primary"
     self.wpn_fps_ass_g3_upg_primary.default_blueprint = {
 			"wpn_fps_ass_g3_b_sniper",
 			"wpn_fps_ass_g3_body_lower",
@@ -1167,7 +1166,7 @@ function WeaponFactoryTweakData:_init_upgraded_multiplix()
     self.wpn_fps_ass_g3_upg_primary_npc = deep_clone(self.wpn_fps_ass_g3_upg_primary)
     self.wpn_fps_ass_g3_upg_primary_npc.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3_npc"
     self.wpn_fps_ass_g3_upg_secondary = deep_clone(self.wpn_fps_ass_g3_upg_primary)
-    self.wpn_fps_ass_g3_upg_secondary.unit = "new_weapon_units/upgrade/wpn_fps_ass_g3_upg_secondary"
+    self.wpn_fps_ass_g3_upg_secondary.unit = "units/pd2_mod_zombies/weapons/upgrade/wpn_fps_ass_g3_upg_secondary"
     self.wpn_fps_ass_g3_upg_secondary_npc = deep_clone(self.wpn_fps_ass_g3_upg_secondary)
     self.wpn_fps_ass_g3_upg_secondary_npc.unit = "units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3_npc"
 	
@@ -1269,18 +1268,18 @@ function WeaponFactoryTweakData:_define_sights()
         translation = Vector3(0, 0, -3),
     }
 
-	self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_upg_primary = {
-        translation = Vector3(-0.013, -22, -4.595),
+	self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_m95_upg_primary = {
+        translation = Vector3(0, -0, -3.75),
     }
 	
-    self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_upg_secondary = {
-        translation = Vector3(-0.013, -22, -4.595),
+    self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_m95_upg_secondary = {
+        translation = Vector3(0, -0, -3.75),
     }
-	
+    
 	self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_primary = {
         translation = Vector3(-0.013, -22, -4.595),
     }
-	
+
     self.parts.wpn_fps_upg_o_shortdot.stance_mod.wpn_fps_snp_m95_secondary = {
         translation = Vector3(-0.013, -22, -4.595),
     }

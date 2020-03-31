@@ -34,8 +34,8 @@
 	"zm_kino_ach_welcome_desc":                    " ",
 	"zm_kino_ach_welcome_objective":                    "Start the heist. \n\nThere is no difficulty requirement.",
 	"zm_kino_ach_complete_name":                    "a big hug",
-	"zm_kino_ach_complete_desc":                    " ",
-	"zm_kino_ach_complete_objective":                    "How to unlock this one, i wonder? finish the rest and find the four!",
+	"zm_kino_ach_complete_desc":                    "finish the rest then find four of something special.",
+	"zm_kino_ach_complete_objective":                    "How to unlock this one, i wonder?",
 	"zm_perk_mechanics":"Perks"
 
 
