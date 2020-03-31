@@ -11,6 +11,7 @@
 		<extension name="interaction" class="UseInteractionExt">
 			<var name="tweak_data" value="zm_mystery_box" />
 			<var name="_interact_object" value="interact"/>
+			<var name="drop_in_sync_tweak_data" value="true" />
 		</extension>
 		
 	</extensions>
