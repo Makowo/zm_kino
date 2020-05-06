@@ -327,6 +327,16 @@ Hooks:PostHook(InteractionTweakData, "init", "zm_init_new_interactions", functio
 		sound_done = "zm_gen_door_bought1",
 		timer = 1.5,
 	}
+
+	self.zm_buy_end_50000 = {
+		zm_interaction = true,
+		path = true,
+		points_cost = 50000,
+		action_text_id = "zm_opening_path",
+		start_active = false,
+		sound_done = "zm_gen_door_bought1",
+		timer = 5,
+	}
 	
 	self.zm_open_path_1250 = {
 		zm_interaction = true,

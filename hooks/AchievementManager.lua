@@ -1,5 +1,3 @@
---Hooks made by MiamiCenter, with small help from on_trigger. It is awarding difficulty Achievements, and also fixing Local Players (Everyone in the lobby exept host)
---soo they can unlock achievements too.
 --bonk mako did this trash
 Hooks:PostHook(ElementBLCustomAchievement, "init", "init_imsotiredofthis", function (self)
 CustomAchievementPackage:init("zm_kino_ach")

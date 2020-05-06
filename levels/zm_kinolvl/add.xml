@@ -104,6 +104,11 @@
 		<model path="units/pd2_mod_craft/props/cupcake"/>
 		<object path="units/pd2_mod_craft/props/cupcake"/>
 		<unit path="units/pd2_mod_craft/props/cupcake"/>
+		<material_config path="units/pd2_mod_craft/props/hug"/>
+		<model path="units/pd2_mod_craft/props/hug"/>
+		<object path="units/pd2_mod_craft/props/hug"/>
+		<unit path="units/pd2_mod_craft/props/hug"/>
+		<texture path="units/pd2_mod_craft/props/textures/hug"/>
 		<sequence_manager path="units/pd2_mod_craft/props/cupcake"/>
 		<texture path="units/pd2_mod_craft/props/textures/cupcake"/>
 		<texture path="guis/dlcs/mcgshovel/textures/pd2/blackmarket/icons/melee_weapons/mcgshovel"/>
