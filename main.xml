@@ -134,12 +134,15 @@
 				</sounds>
 				<sounds directory="zm_perks">
 					<sound id="zm_perk_bought" path="zm_perk_bought.ogg"/>
-					<sound id="zm_perk_bumped" path="zm_perk_bumped.ogg"/>
-					<sound id="zm_perk_denied" path="zm_perk_denied.ogg"/>
-					<sound id="zm_perk_song_deadshot_sting" path="zm_perk_song_deadshot.ogg"/>
-					<sound id="zm_perk_song_doubletap_sting" path="zm_perk_song_doubletap.ogg"/>
-					<sound id="zm_perk_song_pap_sting" path="zm_perk_song_pack_a_punch.ogg"/>
-					<sound id="zm_perk_song_staminup_sting" path="zm_perk_song_staminup.ogg"/>
+					<sound id="zm_pack_hum" loop="true" path="zm_pack_hum.ogg" volume="0.12"/>
+					<sound id="zm_perk_song_deadshot" path="zm_perk_song_deadshot.ogg"/>
+					<sound id="zm_perk_song_deadshot_sting" path="zm_perk_song_deadshot_sting.ogg"/>
+					<sound id="zm_perk_song_doubletap_sting" path="zm_perk_song_doubletap_sting.ogg"/>
+					<sound id="zm_perk_song_doubletap" path="zm_perk_song_doubletap.ogg"/>
+					<sound id="zm_perk_song_pap" path="zm_perk_song_pack_a_punch.ogg"/>
+					<sound id="zm_perk_song_pap_sting" path="zm_perk_song_pack_a_punch_sting.ogg"/>
+					<sound id="zm_perk_song_staminup" path="zm_perk_song_staminup.ogg"/>
+					<sound id="zm_perk_song_staminup_sting" path="zm_perk_song_staminup_sting.ogg"/>
 					<sound id="zm_perk_song_speedcola" path="zm_perk_song_speedcola.ogg"/>
 					<sound id="zm_perk_song_speedcola_sting" path="zm_perk_song_speedcola_sting.ogg"/>
 					<sound id="zm_perk_song_quickrevive" path="zm_perk_song_quickrevive.ogg"/>
@@ -637,7 +640,7 @@
 		<achievement id="zm_kino_ach_pap" rank="1"/>
 		<achievement id="zm_kino_ach_welcome" rank="1"/>
 	</Achievements>
-	<AssetUpdates id="27127" provider="modworkshop" use_local_dir="true" version="1.6"/>
+	<AssetUpdates id="27127" provider="modworkshop" use_local_dir="true" version="1.7"/>
 	<Hooks directory="hooks">
 		<hook file="DynamicResourceManager.lua" source_file="lib/managers/dynamicresourcemanager"/>
 		<hook file="ZM_ContractHudManager.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
