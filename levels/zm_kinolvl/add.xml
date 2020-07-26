@@ -1211,8 +1211,8 @@
 	<add path="units/pd2_mod_zombies/characters/ene_shield_hvh_2/ene_shield_hvh_2_husk" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_sniper_hvh_2/ene_sniper_hvh_2" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_sniper_hvh_2/ene_sniper_hvh_2_husk" type="unit"/>
-	<add path="units/pd2_mod_zombies/characters/ene_spook_hvh_1/ene_spook_hvh_1" type="unit"/>
-	<add path="units/pd2_mod_zombies/characters/ene_spook_hvh_1/ene_spook_hvh_1_husk" type="unit"/>
+	<add load="true" path="units/pd2_mod_zombies/characters/ene_spook_hvh_1/ene_spook_hvh_1" type="unit"/>
+	<add load="true" path="units/pd2_mod_zombies/characters/ene_spook_hvh_1/ene_spook_hvh_1_husk" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_swat_heavy_hvh_1/ene_swat_heavy_hvh_1" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_swat_heavy_hvh_1/ene_swat_heavy_hvh_1_husk" type="unit"/>
 	<add path="units/pd2_mod_zombies/characters/ene_swat_heavy_hvh_r870/ene_swat_heavy_hvh_r870" type="unit"/>
