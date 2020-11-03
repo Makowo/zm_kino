@@ -208,7 +208,7 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian"/>
-		<material_config path="units/pd2_mod_craft/material_master"/>
+		<material_config path="units/pd2_mod_craft/material_masterkino"/>
 		<model path="units/pd2_mod_craft/props/kino"/>
 		<object path="units/pd2_mod_craft/props/kino"/>
 		<sequence_manager path="units/pd2_mod_craft/props/kino"/>
@@ -820,7 +820,7 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_masterkino" unload="true"/>
 		<model path="units/pd2_mod_craft/props/irondoor" unload="true"/>
 		<object path="units/pd2_mod_craft/props/irondoor" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/irondoor" unload="true"/>
@@ -913,7 +913,7 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_masterkino" unload="true"/>
 		<model path="units/pd2_mod_craft/props/kino" unload="true"/>
 		<object path="units/pd2_mod_craft/props/kino" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/kino" unload="true"/>
@@ -1006,7 +1006,7 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_masterkino" unload="true"/>
 		<model path="units/pd2_mod_craft/props/lever" unload="true"/>
 		<object path="units/pd2_mod_craft/props/lever" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/lever" unload="true"/>
@@ -1113,7 +1113,7 @@
 		<texture path="units/pd2_mod_craft/props/textures/cake_bottom" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/soulsand" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/obsidian" unload="true"/>
-		<material_config path="units/pd2_mod_craft/material_master" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_masterkino" unload="true"/>
 		<model path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
 		<object path="units/pd2_mod_craft/props/singleirondoor" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/irondoor" unload="true"/>

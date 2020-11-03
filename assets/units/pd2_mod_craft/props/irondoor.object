@@ -1,5 +1,5 @@
 <dynamic_object>
-	<diesel materials="units/pd2_mod_craft/material_master" orientation_object="rp_root" />
+	<diesel materials="units/pd2_mod_craft/material_masterkino" orientation_object="rp_root" />
 	<sequence_manager file="units/pd2_mod_craft/props/irondoor" />
 	
 	<bodies>

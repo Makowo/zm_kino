@@ -640,7 +640,7 @@
 		<achievement id="zm_kino_ach_pap" rank="1"/>
 		<achievement id="zm_kino_ach_welcome" rank="1"/>
 	</Achievements>
-	<AssetUpdates id="27127" provider="modworkshop" use_local_dir="true" version="1.9"/>
+	<AssetUpdates id="27127" provider="modworkshop" use_local_dir="true" version="1.91"/>
 	<Hooks directory="hooks">
 		<hook file="DynamicResourceManager.lua" source_file="lib/managers/dynamicresourcemanager"/>
 		<hook file="ZM_ContractHudManager.lua" source_file="lib/managers/menu/items/contractbrokerheistitem"/>
